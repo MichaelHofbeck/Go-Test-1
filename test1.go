@@ -10,14 +10,6 @@ import (
 	"time"
 )
 
-func counter(x int) int {
-	count := 0
-	for ; count < x; count++ {
-		fmt.Println(count)
-	}
-	return count
-}
-
 func program1(x int) {
 	// Array
 	// array_start := time.Now()
